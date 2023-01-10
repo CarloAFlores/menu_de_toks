@@ -45,16 +45,16 @@
                             </div>
                             <div class="lista_estado" v-if="Estados">
                                 <ul class="lista_estados">
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo"> Aguascalientes</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Nueva iork</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">la casa de luis miguel</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">la casa de los sinsons</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">me pican los cocos</div></button></li>
                                     <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Aguascalientes</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Nueva iork</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">la casa de luis miguel</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">la casa de los sinsons</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">me pican los cocos</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Baja California</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Campeche</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Chiapas</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Guerrero</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Chiapas</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Hidalgo</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Jalisco</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Puebla</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Estados=false" class="ver"><div class="lista_todo">Oaxaca</div></button></li>
                                 </ul>
                             </div>
                         </div>
@@ -68,11 +68,11 @@
                             </div>
                             <div class="lista_sucursale" v-if="Sucursales">
                                 <ul class="lista_sucursales">
-                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">al</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">toque</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">mi</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">rey</div></button></li>
-                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">xd</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">Sucursal 1</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">Sucursal 2</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">Sucursal 3</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">Sucursal 4</div></button></li>
+                                    <li value="[object Object]" class="lista"><button @click="Sucursales=false" class="ver"><div class="lista_todo">Sucursal 5</div></button></li>
                                 </ul>
                             </div>
                         </div>
@@ -108,17 +108,16 @@ export default {
 
 <style>
 .opciones{
-    margin-left: -65rem;
+    margin-left: -69rem;
     margin-top: -32rem;
-    background: transparent;
     position: fixed;
     border: none;
     cursor: pointer;
+    background: transparent;
 }
 .opciones img{
-    width: 50px;
-    height: 50px;
-
+    width: 30px;
+    height: 30px;
 }
 .idioma{
     background:transparent;
@@ -133,6 +132,7 @@ export default {
 .idioma img{
     width:35px ;
     height:35px ;
+    
 }
 .traducida{
     background: transparent;
@@ -592,9 +592,10 @@ ul{
     }
 
 }
+
 @media (min-width: 768px) and (max-width: 1024px){
     
-        .logo{
+    .logo{
     width: 250px;
     height: 200px;
     }
@@ -604,10 +605,9 @@ ul{
     }
     .Menu{
         background-position-x: 0rem;
-        background-position-y: 7.5rem;
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-position-y: -15rem;
         }
 
 }
+
 </style>
