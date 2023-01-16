@@ -185,7 +185,7 @@ export default defineComponent({
 @media (min-width: 400px) and (max-width: 480px){
     .carousel__item{
     border: 1px solid black;
-    background-color: greenyellow;
+    background-color: blue;
     width: 12rem;
     height: 40rem;
     border-radius: 20px;
