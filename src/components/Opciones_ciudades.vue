@@ -1,14 +1,13 @@
 <template>
-  <router-view/>
+  <h1>Hola</h1>
 </template>
-<script>
 
+<script>
 export default {
-  
+
 }
 </script>
+
 <style>
-*{
-  margin: 0
-}
+
 </style>

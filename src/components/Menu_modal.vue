@@ -14,7 +14,7 @@
         <div class="icono_frase_boton">
             <img src="https://menugrg.com.mx:7443/recs_marcas/logo_toks.png" alt="" class="logo">
             <h2 class="frase">Estar aqui, está mejor</h2>
-            <button class="boton_menu">MENÚ</button>
+            <router-link class="boton_menu" :to="{name:'about'}">MENÚ</router-link>
         </div>
 
         <div class="modal" v-if="AbrirModal">
@@ -90,6 +90,7 @@
 <script>
 import font from "@/common/font.css";
 import { ref } from "vue";
+
 export default {
     data(){
         return{
@@ -106,7 +107,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .opciones{
     margin-left: -69rem;
     margin-top: -32rem;

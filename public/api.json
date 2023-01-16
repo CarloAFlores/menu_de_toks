@@ -1,0 +1,36 @@
+[{
+    "id":1,
+    "imagen":"https://menugrg.com.mx:7443/menudigital/Experiencias/Experiencia-TOKS.jpg",
+    "recuadro":""
+},
+{
+    "id":2,
+    "imagen":"https://menugrg.com.mx:7443/menudigital/categorias/AL_ESTILO_DEL_CHEF.1672639416.jpg",
+    "titulo":"Menu del dia",
+    "recuadro":"https://menugrg.com.mx:7443/menudigital/categorias/MENU_INCLUYE_02.1606704382.png"
+},
+{
+    "id":3,
+    "imagen":"https://menugrg.com.mx:7443/menudigital/categorias/Chilaquiles_Pollo.1604202038.jpg",
+    "titulo":"Desayunos",
+    "recuadro":"https://menugrg.com.mx:7443/menudigital/categorias/Desayunos.1592631499.png"
+},
+{
+    "id":4,
+    "imagen":"https://menugrg.com.mx:7443/menudigital/categorias/1165_21_04_FILETE_RES_TAMPIQUENA.1618611913.jpg",
+    "titulo":"Comidas",
+    "recuadro":"https://menugrg.com.mx:7443/menudigital/categorias/Comidas.1592631529.png"
+},
+{
+    "id":5,
+    "imagen":"https://menugrg.com.mx:7443/menudigital/categorias/Club_Sandwich.1604202054.jpg",
+    "titulo":"Cenas",
+    "recuadro":"https://menugrg.com.mx:7443/menudigital/categorias/Cenas.1592631541.png"
+},
+{
+    "id":6,
+    "imagen":"https://menugrg.com.mx:7443/menudigital/categorias/2112_22_06_FOTOS_MENU_DIG_DELIVERY_JULIO_UBER_550x440_CHOCO_HOTCAKES.1662400976.jpg",
+    "titulo":"Infantil",
+    "recuadro":"https://menugrg.com.mx:7443/menudigital/categorias/Infantil.1592631549.png"
+}
+]
