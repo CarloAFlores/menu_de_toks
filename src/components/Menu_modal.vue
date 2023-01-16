@@ -236,6 +236,7 @@ align-items: center;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .boton_menu:hover{
